@@ -1,4 +1,4 @@
-g
+
 local Decompile, Libraries = {
   WaitDecompile = false,
   getupvalues = false,
